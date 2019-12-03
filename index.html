@@ -1,10 +1,176 @@
-<!doctype html>
+<!--Desarrollado por Yeferson Quinayás-->
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Hoja de Vida</title>
+        <script src="js/index.js"></script>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Yeferson - Hoja de Vida</title>
 </head>
-<h1> Prueba</h1>
-<body>
-</body>
+    
+    <body>
+        <div id="main_wrapper">
+            <header>
+              
+ 				 <div id="main_title">
+    
+				<h1>Yeferson</h1>
+
+			  </div>
+                
+                <nav>
+                  <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de Mi</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                  </ul>
+              </nav>
+              
+            </header>
+            
+            <div id="banner_image">
+                
+                <div id="banner_description">
+                        <h3>Bienvenidos</h3>
+                        <h1>Yo soy Yeferson</h1>
+                        <h3>Desarrollador web</h3>
+                    <div class="profile_Photo"><img src="images1/FotoCarnet.jpeg" alt="profile_photo" /></div>
+                </div>
+            </div>
+            
+            <div id="about_me">
+                <h1>Acerca de mi</h1>
+<div id="profile">
+      <h1>Perfil</h1>
+                    <p>¡Hola! Mi nombre es Yeferson. Nací en la ciudad de Popayán, pero realicé 
+                        mis estudios de colegio en Mocoa Ptyo. En ese lugar realicé un técnico 
+                        en sistemas y fue cuando tuve mis primeros pasos en la programación. Luego fuí 
+                        a la ciudad de Popayán a realizar mis estudios de pregrado. Tengo conocimientos
+                        en Redes, Telecomunicaciones y mi pasatiempo favorito es aprender
+                        sobre temas relacionados con tecnología.</p>
+                    
+                </div>
+              <div id="courses">
+                    <h1>Estudios</h1>
+                    <ul>
+                        <li><a href="#">Ing. en Electrónica y Telecomunicaciones</a></li>
+                        <li><a href="#">Técnico en Sistemas</a></li>
+                        <li><a href="#">Diplomado SGSTT</a></li>
+                        <li><a href="#">Por más!</a></li>
+                    </ul>
+                </div>
+              <div id="experience">
+                    <h1>Experiencia</h1>
+                    <ol>
+                        <li><a href="#">Docente de matemáticas</a></li>
+                        <li><a href="#">Desarrollador android</a></li>
+                        <li><a href="#">OMNeT++</a></li>
+                        <li><a href="#">Asesor</a></li>
+                    </ol>
+                </div>
+
+          </div>
+            <div id="services">
+                    <h1>Servicios</h1>
+    
+                    <div id="service1">
+                        <div class="service_Photo"><img src="images1/developericon.png" class="imgRedonda" alt="service_photo" /></div>
+                        <h1>Web/PC</h1>
+                        <p>Servicio de desarrollo de aplicaciones web y de escritorio. </p>
+                    </div>
+                    <div id="service2">
+                        <div class="service_Photo"><img src="images1/developermobileicon.png" class="imgRedonda" alt="service_photo" /></div>
+                        <h1>Móviles</h1>
+                        <p>Servicio de diseño y desarrollo de aplicativos móviles.
+                            Despliegue de servicios.
+                        </p>
+                    </div>
+                    <div id="service3">
+                        <div class="service_Photo"><img src="images1/netrounds-icon-blue-nfv.png" class="imgRedonda" alt="service_photo" /></div>
+                        <h1>SDN/NFV</h1>
+
+                        <p>Servicio de virtualización de redes y servicios sobre fibra óptica
+                            en OMNeT++.
+                        </p>
+                    </div>
+    
+            </div>
+            <div id="portafolio"> 
+                <h1>Portafolio</h1>
+                <div id=briefcase1>
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/android.jfif" alt="service_photo" /></div>    
+                </div>
+                <div id=briefcase2>
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/desktop.png" alt="service_photo" /></div>    
+                </div>
+                <div id=briefcase3>
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/fibra-optica1.jpg" alt="service_photo" /></div>    
+                </div>
+                <div id=briefcase4>
+
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/sdn.png" alt="service_photo" /></div>    
+                </div>
+                <div id=briefcase5>
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/servidores.jpg" alt="service_photo" /></div>    
+                </div>
+                <div id=briefcase6>
+                <div class="briefcase_Photo"><img class="bf_Photo" src="images1/torres.jfif" alt="service_photo" /></div>    
+                </div>
+                
+            </div>
+
+             
+            
+            <footer>
+                <div>
+                    <form class="miForma" name="contacto">
+                        <h1>Contacto</h1>
+                        <div id="sectionContact">
+                            <label for="txtName">Nombre:</label>
+                        </div>
+                        <div id="sectionFill">
+                            <input type="text" name="txtName" required><br />
+                        </div>
+                        <div id="sectionContact">
+                            <label for="txtEmail">¿Interesado en cual servicio?</label>
+                        </div>
+                        <div id="sectionFill">
+                            <select name="servicerequire">
+                                <option>[No seleccionado]</option>
+                                <option>Páginas web</option>
+                                <option>Aplicaciones móviles</option>
+                                <option>Telecomunicaciones</option>
+                            </select><br />
+                        </div>
+                        <div id="sectionContact">
+                            <label for="txtEmail">Correo:</label>
+                        </div>
+                        <div id="sectionFill">
+                            <input type="email" name="txtEmail"><br />
+                        </div>
+
+                        <div id="sectionContact">
+                            <label for="txtMessage">Mensaje:</label>
+                        </div>
+                        <div id="sectionFill" >
+                            <input class="boxMessage" type="text" name="txtMessage" ><br />
+                        </div>
+
+                      <div id="buttonSend">
+                        <button onclick="buttomEnviar()">Enviar</button>
+						<button type="button" class="btn btn-dark">Dark Button</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </footer>
+        </div>
+    </body>
 </html>
